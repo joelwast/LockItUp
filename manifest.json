@@ -1,8 +1,16 @@
 {
   "short_name": "LockItUp",
-  "name": "Create React App Sample",
+  "name": "LockItUp",
   "icons": [
     {
+      "src": "candado.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },{
+      "src": "candado.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },{
       "src": "candado.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
