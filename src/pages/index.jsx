@@ -6,16 +6,10 @@ import RefreshIcon from "../components/refresh-icon";
 import LockIcon from "../components/lock-icon";
 import OkIcon from '../components/ok-icon';
 
-const IndexApp = ({ lenguaje }) => {
-    document.documentElement.lang = lenguaje;
+const IndexApp = () => {
     const [password, setPassword] = useState("");
     const [copySuccess, setCopySuccess] = useState("");
     const [animacionActiva, setAnimacionActiva] = useState(false);
-
-    useEffect(() => {
-        // Cambia el atributo lang de la etiqueta <html>
-        document.documentElement.lang = lenguaje;
-    }, [lenguaje]);
 
     // Función para generar una contraseña segura
     const generarContraseñaSegura = (longitud = 18) => {
